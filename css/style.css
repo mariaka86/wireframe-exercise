@@ -7,51 +7,60 @@ body {
     margin: 0 auto;
 }
 main{
-    width: 1200px;
+   
     margin: 0 auto;
     background-color: blanchedalmond; 
 }
-h1{
- text-align: center;
-}
 
-h2{
-     float: right; 
+ main h2{
+     text-align: right; 
+    
+     text-decoration: azure;
 }
-p main{
-    max-width: 85%;
+main p {
+    float: left;
+    width: 50%;
+    
  
 }
-
-header{
-   
-  
+button{
+    float: right;
+}
+header ul{
+width:60%;
+display: flex;
+justify-content:space-between;
 }
 
-nav {
-background-color: rgb(44, 44, 44);
-height: 100px;
-color:aliceblue;
-margin-left: 28px;
 
+nav {
+    background-color: rgb(58, 26, 26);
+    color:aliceblue;   
 }
 
 
 nav li{
 display: inline-block;
-margin-bottom: 8px;
+text-align: center;
+border: 3px solid rgb(20, 20, 20);
+margin:50px;
+text-decoration-skip: whitesmoke;
 
 
-}
 
+} 
 
-    
-
-body img{
- padding:15px;
+main img{
+ padding: 15px;
  
+
+ }
+main section img{
+    display: block;
+    width: 85%;
     
 }
+
 
 footer{
 height:50px;
