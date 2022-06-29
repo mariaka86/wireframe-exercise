@@ -1,0 +1,59 @@
+*{
+    clear: both;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: blanchedalmond; 
+}
+h1{
+ text-align: center;
+}
+
+h2{
+     float: right; 
+}
+p main{
+    max-width: 85%;
+ 
+}
+
+header{
+   
+  
+}
+
+nav {
+background-color: rgb(44, 44, 44);
+height: 100px;
+color:aliceblue;
+margin-left: 28px;
+
+}
+
+
+nav li{
+display: inline-block;
+margin-bottom: 8px;
+
+
+}
+
+
+    
+
+body img{
+ padding:15px;
+ 
+    
+}
+
+footer{
+height:50px;
+background-color:rgb(4, 5, 5);
+}
